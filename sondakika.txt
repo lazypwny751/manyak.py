@@ -1,0 +1,14 @@
+--Tue Sep 2020 / 15--
+
+Son Dakika[1]:                        data-story-order="1"
+
+Son Dakika[2]:                        data-story-order="1"
+
+Son Dakika[3]:                        data-story-order="1"
+
+Son Dakika[4]:                        data-story-order="1"
+
+Son Dakika[5]:                        data-story-order="1"
+
+
+ a script by lazy-pwny https://github.com/lastpingu

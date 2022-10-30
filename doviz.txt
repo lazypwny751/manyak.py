@@ -1,0 +1,35 @@
+--Sat Sep 2020 / 19--
+
+     DOLAR:
+-------------
+alış=
+satış=
+yüksek=
+düşük=
+değişim=</th>
+
+     EURO:
+---------------
+alış=
+satış=
+yüksek=
+düşük=
+değişim=<td
+
+     CHF:
+---------------
+alış=
+satış=
+yüksek=
+düşük=
+değişim=<td
+
+     CAD:
+---------------
+alış=
+satış=
+yüksek=
+düşük=
+değişim=<td
+
+ a script by lazy-pwny https://github.com/lastpingu

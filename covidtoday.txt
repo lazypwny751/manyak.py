@@ -1,0 +1,11 @@
+Dr. Fahrettin Koca
+Tatilde ve bayramda herkesle iç içe olanlar 1,5 m geri çekilsin.
+
+		Sat Sep 2020 / 19
+
+Bu Günkü Test Sayısı: 
+Bu Günkü Hasta Sayısı: 
+Bu Günkü Vefat Sayısı: 
+Bu Günkü İyileşen Sayısı: 
+
+ a script by lazy-pwny https://github.com/lastpingu

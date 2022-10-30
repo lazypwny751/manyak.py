@@ -1,0 +1,160 @@
+#!/bin/bash
+
+#########################
+# a script by lazy-pwny #
+#########################
+
+#randx=$((RANDOM % 10))
+if [[ $1 = espiri ]] ; then
+echo "espiri sallanıyor"
+    randx=$((RANDOM % 30))
+    if [[ $randx = "1" ]] ; then
+        x="- İnsanların seni ezmesine izin verme; Ehliyet al, sen onları ez..."
+    elif [[ $randx = "2" ]] ; then
+        x="- İlahi Azrail ... Sen adamı öldürürsün!"
+    elif [[ $randx = "3" ]] ; then
+        x="- Mafya babası olmak için oğlumun adını “Mafya” koydum."
+    elif [[ $randx = "4" ]] ; then
+        x="- Kim vurduya gittim birazdan gelecem..."
+    elif [[ $randx = "5" ]] ; then
+        x="- Zenginler et, fakirler hayalet yer."
+    elif [[ $randx = "6" ]] ; then
+        x="- Bugünlerde gözüm çok KIZarıyor.- Benimde arıyor ya!"
+    elif [[ $randx = "7" ]] ; then
+        x="- Hava korsanı uçağı kaçıracaktı ama yapamadı çünkü uçağı kaçırdı."
+    elif [[ $randx = "8" ]] ; then
+        x="- GİT’Arı’ getir de biraz şarkı söyleyelim. -Abi arı sokmasın!"
+    elif [[ $randx = "9" ]] ; then
+        x="- Sana bir kıllık yapayım, kıllarını koyarsın."
+    elif [[ $randx = "10" ]] ; then
+        x="- Seven unutmaz oğlum, eight unutur."
+    elif [[ $randx = "11" ]] ; then
+        x="- Cem Uzan, üstünü örteyim."
+    elif [[ $randx = "12" ]] ; then
+        x="- Geçenlerde izdivaç programında adam evim, arabam, param var dedi üç hatun aynı anda elektrik aldı. Adam bildiğin üçlü priz çıktı."
+    elif [[ $randx = "13" ]] ; then
+        x="- Haydi Unkapanı’na gidip birkaç kapan kuralım. Belki un yakalarız"
+    elif [[ $randx = "14" ]] ; then
+        x="- Saçını sarıya boyatıp kaşlarını zift karası bırakınca doğal sarışın olmuyorsun tatlım. Borussia Dortmund deplasman forması gibi oluyon."
+    elif [[ $randx = "15" ]] ; then
+        x="- Sonuçta çubuk krakerle sigara içme taklidi yapan çocuklardık biz. Hangi ara bu kadar cool olduk."
+    elif [[ $randx = "16" ]] ; then
+        x="- Adamın biri güneşte yanmış, ay da düz."
+    elif [[ $randx = "17" ]] ; then
+        x="- Ben Yedigün içiyorum sen Onbeşgün iç."
+    elif [[ $randx = "18" ]] ; then
+        x="- Sinemada on dakika ara dedi, aradım aradım açmadı."
+    elif [[ $randx = "19" ]] ; then
+        x="- Röntgen Filmi çektirdik, yakında sinemalarda."
+    elif [[ $randx = "20" ]] ; then
+        x="- Adamın Biri Notebook Almış, DELLenmiş."
+    elif [[ $randx = "21" ]] ; then
+        x="- Geçen gün taksi çevirdim hala dönüyor."
+    elif [[ $randx = "22" ]] ; then
+        x="- Ben hikâye yazarım Ebru Destan."
+    elif [[ $randx = "23" ]] ; then
+        x="- Geçen gün geçmiş günlerimi aradım ama meşguldü."
+    elif [[ $randx = "24" ]] ; then
+        x="- Tebrikler kazandınız, şimdi tencere oldunuz!"
+    elif [[ $randx = "25" ]] ; then
+        x="- Kaba kuvvet uygulama, kap kırılabilir."
+    elif [[ $randx = "26" ]] ; then
+        x="- Türkiye’nin en yeni şehri – Nevşehir"
+    elif [[ $randx = "27" ]] ; then
+        x="- Ayna'nın karşısında süslenme, manga'nın karşısında süslen."
+    elif [[ $randx = "28" ]] ; then
+        x="- Geçen ‘fil’e çorap aldım, zürafaya almadım."
+    elif [[ $randx = "29" ]] ; then
+        x="- Yılanlardan korkma, yılmayanlardan kork."
+    elif [[ $randx = "30" ]] ; then
+        x="- Ben kahve içiyorum, Nurgül Yeşilçay."
+    fi
+    echo -e "$x" > espiri.txt
+    echo "bitti"
+elif [[ $1 = "atasoz" ]] ; then
+    echo "atasözü beğeniliyor"
+    randx=$((RANDOM % 19))
+    if [[ $randx = "1" ]] ; then
+        x="sakla /etc/passwdyi trade edersin"
+    elif [[ $randx = "2" ]] ; then
+        x="ayagini quotana gore uzat"
+    elif [[ $randx = "3" ]] ; then
+        x="sessiz /dev/nullun cati uzun olur"
+    elif [[ $randx = "4" ]] ; then
+        x="rpc ile yatan trojanlanmis kalkar"
+    elif [[ $randx = "5" ]] ; then
+        x="hardiskin defragmente etmezsen isletim sistemini yavaslatirsin"
+    elif [[ $randx = "6" ]] ; then
+        x="ummadik bug bash yarar"
+    elif [[ $randx = "7" ]] ; then
+        x="rm sukutsa rm -fr /* altindir"
+    elif [[ $randx = "8" ]] ; then
+        x="windowzunu dövmeyen linux unu döver"
+    elif [[ $randx = "9" ]] ; then
+        x="ben sana root olamazsin demedim ki 3133t olamazsin dedim"
+    elif [[ $randx = "10" ]] ; then
+        x="fixlersen bag fixlemessen dag olur"
+    elif [[ $randx = "11" ]] ; then
+        x="kernel update eden uskudari gecti"
+    elif [[ $randx = "12" ]] ; then
+        x="bi deli linux unu bozmus 40 teknik servis elemani düzeltememis"
+    elif [[ $randx = "13" ]] ; then
+        x="anlayana bir account saz anlamayana root sifresi az"
+    elif [[ $randx = "14" ]] ; then
+        x="hackera hergun bayram"
+    elif [[ $randx = "15" ]] ; then
+        x="komsunun dial upi komsuya oc12 gozukur"
+    elif [[ $randx = "16" ]] ; then
+        x="bin atli bi pc aldik sevindik\n
+bin atli o gün linux kurmayi örendik\n
+bin atli o gün pentagonu hackettik\n
+(proxy kullanmayi unutmusuz ama ne hikmetse yakalanmadik)"
+    elif [[ $randx = "18" ]] ; then
+        x="hackerin hackerdan bashka dostu yoktur"
+    elif [[ $randx = "17" ]] ; then
+        x="osunu soyle sana kim oldugunu soyliim"
+    elif [[ $randx = "19" ]] ; then
+        x="lamer gümüsse hacker altindir"
+    fi
+    echo -e "~$ $x\n" > atasozu.txt
+elif [[ $1 = "dolaryak" ]] ; then
+    randx=$((RANDOM % 16))
+    if [[ $randx = "1" ]] ; then
+    	x="358934$ dolar yaktın borsada dolarda %0,008 lik düşüş yaşandı"
+    elif [[ $randx = "2" ]] ; then
+    	x="893498231781312632187$ dolar yaktın borsada dolarda %8,6 lik düşüş yaşandı"
+    elif [[ $randx = "3" ]] ; then
+    	x="21434512353545$ dolar yaktın borsada dolarda %4,3 lik düşüş yaşandı"
+    elif [[ $randx = "4" ]] ; then
+    	x="666124653$ dolar yaktın borsada dolarda %6,6 lik düşüş yaşandı"
+    elif [[ $randx = "5" ]] ; then
+    	x="142533453454545345$ dolar yaktın borsada dolarda %8,2 lik düşüş yaşandı"
+    elif [[ $randx = "6" ]] ; then
+    	x="823293109231$ dolar yaktın borsada dolarda %6,9 lik düşüş yaşandı"
+    elif [[ $randx = "7" ]] ; then
+    	x="1$ dolar yaktın borsada dolarda %0,000000000000000000000000000000000..1 lik düşüş yaşandı"
+    elif [[ $randx = "8" ]] ; then
+    	x="1268742389389127732635142421454848 dolar yaktın borsada dolarda %18 lik düşüş yaşandı"
+    elif [[ $randx = "9" ]] ; then
+    	x="18612372843125472471248714871236123721$ dolar yaktın borsada dolarda %23,4 lik düşüş yaşandı"
+    elif [[ $randx = "10" ]] ; then
+    	x="6241484278274124767246174641676724166$ dolar yaktın borsada dolarda %24,8 lik düşüş yaşandı"
+    elif [[ $randx = "11" ]] ; then
+    	x="61168484684646415168684456169798712836$ dolar yaktın borsada dolarda %27,9 lik düşüş yaşandı"
+    elif [[ $randx = "12" ]] ; then
+    	x="9477271305938454686316876831687651463554646876548615564641516166887$ dolar yaktın borsada dolarda %61,6 lik düşüş yaşandı"
+    elif [[ $randx = "13" ]] ; then
+    	x="555555555555555555555555555...5$ dolar yaktın borsada dolarda %50 lik düşüş yaşandı"
+    elif [[ $randx = "14" ]] ; then
+    	x="3091238928138921312371293812839712382319839991123$ dolar yaktın borsada dolarda %30,2 lik düşüş yaşandı"
+    elif [[ $randx = "15" ]] ; then
+    	x="999999999999999999999999999...9$ dolar yaktın borsada dolarda %100 lik düşüş yaşandı artık piyasanın yeni babası😎 ₺ 😎"
+    elif [[ $randx = "16" ]] ; then
+    	x="358934$ dolar yaktın borsada dolarda %0 lik düşüş yaşandı"
+    else
+    	x="🚨 5₺ yakmaya çalıştın. Hain ilan edildin 🚔 kırmızı bültende aranıyorsun! 🚓"
+    fi
+    echo -e "$x\n" > dolaryak.txt
+else
+    echo "ops sorry but it's not working"
+fi

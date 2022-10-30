@@ -1,0 +1,2 @@
+~$ sessiz /dev/nullun cati uzun olur
+

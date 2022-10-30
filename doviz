@@ -1,0 +1,56 @@
+#!/bin/bash
+
+#*             *             *             * 
+# Special Thanks By MIDONE SINANE @ Penguin Tux
+#*             *             *             *
+#########################
+# a script by lazy-pwny #
+#########################
+
+## VARIABLES
+datetoday=$(date | awk '{print $1,$3,$4" / "$2}')
+s="kur.doviz.com"
+
+#check internet
+
+wget -q --spider http://google.com
+
+if [ $? -eq 0 ]; then
+    echo "Online" &> /dev/null  
+else
+    echo "[*] Offline"
+    echo "cihazınız internete bağlı olmadığından güncel bilgi alınamıyor.."
+    exit 1
+fi
+
+# defaultlardan çekerden bu yüzden kayma olabilir
+echo "yazılıyor"
+{
+echo "--$datetoday--"
+echo -e "\n     DOLAR:\n-------------"
+echo -n "alış=" ; wget $s -q -O - | awk 'NR==359' | tr -dc '.,0-9' ; echo "" 
+echo -n "satış=" ; wget $s -q -O - | awk 'NR==360' | tr -dc '.,0-9' ; echo ""
+echo -n "yüksek=" ; wget $s -q -O - | awk 'NR==361' | tr -dc '.,0-9' ; echo ""
+echo -n "düşük=" ; wget $s -q -O - | awk 'NR==362' | tr -dc '.,0-9' ; echo ""
+echo -n "değişim=" ; wget $s -q -O - | awk 'NR==364' | awk '{print $1}'
+echo -e "\n     EURO:\n---------------"
+echo -n "alış=" ; wget $s -q -O - | awk 'NR==377' | tr -dc '.,0-9' ; echo "" 
+echo -n "satış=" ; wget $s -q -O - | awk 'NR==378' | tr -dc '.,0-9' ; echo ""
+echo -n "yüksek=" ; wget $s -q -O - | awk 'NR==379' | tr -dc '.,0-9' ; echo ""
+echo -n "düşük=" ; wget $s -q -O - | awk 'NR==380' | tr -dc '.,0-9' ; echo ""
+echo -n "değişim=" ; wget $s -q -O - | awk 'NR==382' | awk '{print $1}'
+echo -e "\n     CHF:\n---------------"
+echo -n "alış=" ; wget $s -q -O - | awk 'NR==413' | tr -dc '.,0-9' ; echo "" 
+echo -n "satış=" ; wget $s -q -O - | awk 'NR==414' | tr -dc '.,0-9' ; echo ""
+echo -n "yüksek=" ; wget $s -q -O - | awk 'NR==415' | tr -dc '.,0-9' ; echo ""
+echo -n "düşük=" ; wget $s -q -O - | awk 'NR==416' | tr -dc '.,0-9' ; echo ""
+echo -n "değişim=" ; wget $s -q -O - | awk 'NR==418' | awk '{print $1}'
+echo -e "\n     CAD:\n---------------"
+echo -n "alış=" ; wget $s -q -O - | awk 'NR==431' | tr -dc '.,0-9' ; echo "" 
+echo -n "satış=" ; wget $s -q -O - | awk 'NR==432' | tr -dc '.,0-9' ; echo ""
+echo -n "yüksek=" ; wget $s -q -O - | awk 'NR==433' | tr -dc '.,0-9' ; echo ""
+echo -n "düşük=" ; wget $s -q -O - | awk 'NR==434' | tr -dc '.,0-9' ; echo ""
+echo -n "değişim=" ; wget $s -q -O - | awk 'NR==436' | awk '{print $1}'
+echo -e "\n a script by lazy-pwny https://github.com/lastpingu"
+} > doviz.txt
+echo "bitti"
